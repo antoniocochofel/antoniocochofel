@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.main {
+    max-width: 1200px;
+    padding: 30px;
+    margin-inline: auto;
+}
+
+
+.background {
+    background-color: black;
+}
+
+.header {
+    max-width: 1200px;
+    padding: 30px;
+    margin-inline: auto;
+}
+
+.headercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+.aboutcontact {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.link {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+.grid {
+    max-width: 1200px;
+    padding: 30px;
+    margin-inline: auto;
+}
+
+.framesvvc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+}
+
+.frames {
+    width:100%;
+}

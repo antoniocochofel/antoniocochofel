@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    max-width: 1200px;
+    padding: 30px;
+    margin-inline: auto;
+}
+
+.headercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+.aboutcontact {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.link {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+/*.background {
+    background-image: url(Images/freicken.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}*/
+
+#FreickenVideo {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    
+    
+  }
+
+  #LidlVideo {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+   
+  }
+
+  #VianaViceCityVideo {
+    display:none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    
+  }
+
+  #FcpVideo {
+    display:none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    
+  }
+
+.main {
+    position: relative;
+    max-width: 1200px;
+    padding: 30px;
+    margin-inline: auto;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+.seethrough {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:visited {
+    color:#FAEB5E;
+}
+
+a:hover {
+    color: white;
+    transition: 0.5s;
+}
+ 

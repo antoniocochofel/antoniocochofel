@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    max-width: 1200px;
+    padding: 30px;
+    margin-inline: auto;
+}
+
+.headercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+.aboutcontact {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.link {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+.main {
+    position: relative;
+    max-width: 1200px;
+    padding: 30px;
+    margin-inline: auto;
+}
+
+.pic {
+    width: 350px;
+    height: 350px;
+    align-self: center;
+}
+
+.photobio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    font-family: 'Europa', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 200;
+}
+
+.biocontainer {
+    max-width: 1000px;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+
+p {
+    color: white;
+}
