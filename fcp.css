@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: black;
 }
 
 .main {
@@ -8,10 +9,6 @@ body {
     margin-inline: auto;
 }
 
-
-.background {
-    background-color: black;
-}
 
 .header {
     max-width: 1200px;
