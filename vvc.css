@@ -9,6 +9,10 @@ body {
     margin-inline: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 .header {
     max-width: 1200px;

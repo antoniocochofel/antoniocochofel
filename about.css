@@ -40,6 +40,10 @@ body {
     margin-inline: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 .pic {
     width: 350px;
     height: 350px;
