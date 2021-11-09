@@ -99,8 +99,8 @@ body {
 }
 
 a {
-    text-decoration: none;
     color:#FAEB5E;
+    text-decoration: none; 
 }
 
 a:hover {
