@@ -58,3 +58,14 @@ a {
 .frames {
     width:100%;
 }
+
+@media only screen and (max-width: 480px) {
+  .grid {
+    padding-top: 0;
+  }
+
+  .framesfcp {
+    grid-template-columns: unset;
+    grid-gap: 40px;
+  }
+}

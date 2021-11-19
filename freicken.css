@@ -73,5 +73,16 @@ iframe {
     border: 0;
 }
 
+@media only screen and (max-width: 480px) {
+  .grid {
+    padding-top: 0;
+  }
+
+  .framesfreicken {
+    grid-template-columns: unset;
+    grid-gap: 40px;
+  }
+}
+
 
 

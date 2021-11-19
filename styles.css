@@ -38,7 +38,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+
 }*/
 
 #FreickenVideo {
@@ -46,8 +46,8 @@ body {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    
-    
+
+
   }
 
   #LidlVideo {
@@ -56,7 +56,7 @@ body {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-   
+
   }
 
   #VianaViceCityVideo {
@@ -65,7 +65,7 @@ body {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    
+
   }
 
   #FcpVideo {
@@ -74,7 +74,7 @@ body {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    
+
   }
 
 .main {
@@ -89,7 +89,7 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 20px;
-    
+
 }
 
 .seethrough {
@@ -100,11 +100,19 @@ body {
 
 a {
     color:#FAEB5E;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 a:hover {
     color: white;
     transition: 0.5s;
 }
- 
+
+@media only screen and (max-width: 480px) {
+  .main {
+    padding-top: 0;
+  }
+  .seethrough {
+    font-size: 1.5rem;
+  }
+}
